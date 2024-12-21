@@ -1,0 +1,9 @@
+const fetchWeather = async () => {
+    try {
+        const response = await axios.get(url);
+        console.log(response.data); // Debug: Check if the response contains data
+        setWeather(response.data);
+    } catch (error) {
+        console.error('Error fetching weather:', error);
+    }
+};

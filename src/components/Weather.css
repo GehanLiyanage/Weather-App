@@ -1,0 +1,30 @@
+.weather {
+    text-align: center;
+    padding: 2rem;
+}
+
+.weather input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.weather button {
+    padding: 0.5rem 1rem;
+    background-color: #012df3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.weather button:hover {
+    background-color: #6e5adf;
+}
+
+.weather-info {
+    margin-top: 2rem;
+}
+
+.weather-info h2 {
+    font-size: 2rem;
+    color: #4a54e2;
+}
