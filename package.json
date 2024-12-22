@@ -38,13 +38,5 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/jest-dom": "^6.6.3"
-  },
-
-  "jest": {
-    "transform": {
-      "^.+\\.[tj]sx?$": "babel-jest"
-      }
-    }
-  
-
+  }
 }
